@@ -1,7 +1,7 @@
 # Eigenlayouts
 
 An investigation of web layouts through image data. Pulls down website homepage
-via PhantomJS for later processing. 
+via [PhantomJS](http://phantomjs.org/download.html) for later processing. 
 
 ## Requirements
 
