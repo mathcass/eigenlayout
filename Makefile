@@ -23,4 +23,4 @@ all: $(IMAGELIST)
 # This rule will create 10,000 files in the $(DOMAINDIR) directory
 mkdomains:
 	mkdir -p $(DOMAINDIR)
-	cut -d, -f2 top-1m.csv | head -10 | xargs -n1 -I{} touch "$(DOMAINDIR){}"
+	cut -d, -f2 top-1m.csv | head -10000 | xargs -n1 -I{} touch "$(DOMAINDIR){}"
